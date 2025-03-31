@@ -33,9 +33,19 @@ namespace ColorSpheres
             }
         }
 
-        public int GetTimeThrown()
+        public int GetTimesThrown()
         {
             return contagem;
+        }
+
+        public Color GetColor()
+        {
+            return cor;
+        }
+
+        public int GetRadius()
+        {
+            return raio;
         }
 
     }
